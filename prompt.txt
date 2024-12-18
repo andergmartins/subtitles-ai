@@ -1,0 +1,29 @@
+Format Portuguese subtitles for accessibility, breaking text into two-line subtitles:
+- First line max 32 characters
+- Second line at least half the first line's length
+- Prioritize breaking at verbs, conjunctions, prepositions
+- Maintain original text's meaning and words
+
+Key Guidelines:
+- Avoid orphan single words on second line
+- Keep natural text flow
+- Preserve original Portuguese text exactly
+
+Objectives:
+1. Semantic line breaks
+2. Compact subtitle formatting
+3. Readability preservation
+4. Consistent two-line structure
+
+Processing Rules:
+- If second line has only one word, merge with first line
+- Ensure smooth, natural text segmentation
+- Respect character count limits strictly
+
+Example Input: "Ao vê-la, o Senhor Se compadeceu dela e disse: "Não chore." Lucas 7:13"
+Expected Output:
+Ao vê-la, o Senhor
+Se compadeceu dela
+
+e disse: "Não chore."
+Lucas 7:13
