@@ -2,7 +2,7 @@
 
 ## Prerequisites
 
-- OpenAI API Key
+- OpenAI API Key ([Get one here](https://platform.openai.com/account/api-keys))
 - `curl`
 - `jq` (JSON processor)
 - Homebrew (for macOS users)
